@@ -3,6 +3,10 @@ function contact(){
     return(
         <>
         <div className='backImg'>
+        <div className='headingDiv'>
+            <h1 className='heading' >About BiblioSite</h1>
+        </div>
+        
             {/* --- CONTACT FORM --- */}
                 <div className='formDiv'>
                     <br/>
@@ -53,7 +57,7 @@ function contact(){
                 {/* --- SOCIAL MEDIA BANNER --- */}
 
                 <div className='mediaBanner'>
-                    <p className='fw-bold fs-4'>You can also reach us at </p>
+                    <p className='fw-bold fs-4 pt-4'>You can also reach us at </p>
                     <div className='mediaLogos'>
                         <div className='singLogo'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram mediadimensions" viewBox="0 0 16 16">

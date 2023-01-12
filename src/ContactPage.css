@@ -1,9 +1,29 @@
 .backImg{
-    background-image: url("https://www.mayflower.com/wp-content/uploads/2019/10/Books-1085770318.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/blurred-library-bookshelves_23-2148448040.jpg?w=2000");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.headingDiv{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0px;
+  }
+
+  .heading{
+    color: #133043;
+    text-align: center;
+    width: 500px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 36px;
+    padding: 8px 10px;
+  }
+
+  .heading:hover{
+    text-shadow: 5px 7px 5px #cd7f32;
+  }
 
 .formDiv{
     display: flex;
