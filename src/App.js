@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ContactPage from './ContactPage.js';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           </div>
         </div>
       </header>
+      {/* --- CONTACT --- */}
+      <ContactPage></ContactPage>
       {/* --- FOOTER-- */}
       <footer>
         <div className='mainFooter'>
@@ -102,7 +105,7 @@ function App() {
         </div>
         <div className='text-center text-white'>
               <p>&copy; Copyright 2023 <b>BiblioSite</b>- All Rights Reserved</p>
-              <p>Designed by <b>Sawant, Mitalee</b></p>
+              <p>Designed by <b></b></p>
               <br/>
         </div>
       </footer>
